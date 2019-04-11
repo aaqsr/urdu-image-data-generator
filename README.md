@@ -9,27 +9,22 @@ The purpose of this module is to generate images of Urdu Language. Currently it 
 
 ### 2. Get the Image Data Generator codebase
 
-    ```bash
     git clone https://github.com/urduhack/urdu-image-data-generator.git <path-to-project-dir>
-    ```
 
 
 ### 3. Create and Activate Virtual Environment
 
-    ```bash
     cd <path-to-project-dir>
     python3 -m venv .python3_venv       # creates the virtual env
     source .python3_venv/bin/activate   # activates the virtual env
-    ```
+
     After activating the virtual env. Any installed python packages would be installed here without affecting the main python binaries.
     To de-activate the virtual env, just type "deactivate"
 
 
-###4. Install the required packages
+### 4. Install the required packages
 
-    ```bash
     pip install -r requirements.txt
-    ```
 
 
 ## Running the Project:
@@ -38,6 +33,7 @@ The purpose of this module is to generate images of Urdu Language. Currently it 
 ### 1. Customize the configuration file:
     A config file is provided in the project "config/font_img_generator.yaml", customize it according to your requirement.
     You can tune the following parameters:
+
     image_width: width of the output image
     image_height: height of the output image
 
@@ -54,6 +50,4 @@ The purpose of this module is to generate images of Urdu Language. Currently it 
 
 ### 2. Run the Script:
 
-    ```bash
     python generate_font_images.py
-    ```
