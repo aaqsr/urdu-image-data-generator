@@ -4,17 +4,17 @@ The purpose of this module is to generate images of Urdu Language. Currently it 
 
 ## Instruction for Setup
 
-1. Download and install python from python.org
+### 1. Download and install python from python.org
     Version: minimum python version required 3.5
 
-2. Get the Image Data Generator codebase
+### 2. Get the Image Data Generator codebase
 
     ```bash
     git clone https://github.com/urduhack/urdu-image-data-generator.git <path-to-project-dir>
     ```
 
 
-3. Create and Activate Virtual Environment
+### 3. Create and Activate Virtual Environment
 
     ```bash
     cd <path-to-project-dir>
@@ -25,7 +25,7 @@ The purpose of this module is to generate images of Urdu Language. Currently it 
     To de-activate the virtual env, just type "deactivate"
 
 
-4. Install the required packages
+###4. Install the required packages
 
     ```bash
     pip install -r requirements.txt
@@ -35,7 +35,7 @@ The purpose of this module is to generate images of Urdu Language. Currently it 
 ## Running the Project:
     Currently only character to image module is available
 
-1. Customize the configuration file:
+### 1. Customize the configuration file:
     A config file is provided in the project "config/font_img_generator.yaml", customize it according to your requirement.
     You can tune the following parameters:
     image_width: width of the output image
@@ -52,7 +52,7 @@ The purpose of this module is to generate images of Urdu Language. Currently it 
     character_positions: A list of xy position of character in output image. e.g. [[110, 50]]
 
 
-2. Run the Script:
+### 2. Run the Script:
 
     ```bash
     python generate_font_images.py
