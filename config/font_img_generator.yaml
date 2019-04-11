@@ -1,7 +1,7 @@
 image_width: 255
 image_height: 255
 
-fonts_directory: "/home/rayyan/projects/Urdu_hack/fonts/final_fonts"
+fonts_directory: "fonts"
 output_directory: "output"
 
 
