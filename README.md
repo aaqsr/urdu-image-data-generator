@@ -1,6 +1,7 @@
 # Urdu Image Data Generator
 
 The purpose of this module is to generate images of Urdu Language. Currently it generates images for Characters only.
+In the output directory a "data.csv" file will be created which maps image_path to its corresponding label.
 
 ## Instruction for Setup
 
